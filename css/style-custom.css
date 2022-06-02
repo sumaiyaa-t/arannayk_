@@ -148,7 +148,7 @@ h6 {
 .greennature-main-menu>li:hover>a,
 .greennature-main-menu>li.current-menu-item>a,
 .greennature-main-menu>li.current-menu-ancestor>a {
-	color: #90ba92;
+	color: #005e5e;
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
@@ -165,11 +165,13 @@ h6 {
 	border-color: #8c6e16;
 }
 
-.greennature-donate-button,
-.greennature-donate-button:hover {
-	color: #685617;
+.greennature-donate-button{
+	color: #000;
 }
 
+.greennature-donate-button:hover{
+	color: #8e7126;
+}
 .greennature-woo-button-overlay {
 	background-color: #f7c644;
 }
@@ -189,7 +191,7 @@ h6 {
 
 .greennature-main-menu>.greennature-normal-menu li,
 .greennature-main-menu>.greennature-mega-menu .sf-mega {
-	background-color: #25221a;
+	background-color: #005e5e;
 }
 
 .greennature-main-menu>li>.sub-menu a,
@@ -212,12 +214,12 @@ h6 {
 
 .greennature-main-menu .sf-mega-section-inner>ul>li>a:hover,
 .greennature-main-menu .sf-mega-section-inner>ul>li.current-menu-item>a {
-	background-color: #332c20;
+	background-color: #005e5e;
 }
 
 .greennature-main-menu>li>.sub-menu *,
 .greennature-main-menu>li>.sf-mega * {
-	border-color: #493e2b;
+	border-color: none;
 }
 
 .greennature-main-menu>li>.sf-mega .sf-mega-section-inner>a {
@@ -900,16 +902,16 @@ textarea:-ms-input-placeholder {
 }
 
 .footer-wrapper {
-	background-color: #231e18;
+	background-color: #e86d12;
 }
 
 .footer-wrapper .greennature-widget-title,
 .footer-wrapper .greennature-widget-title a {
-	color: #dddddd;
+	color: #0c0c0c;
 }
 
 .footer-wrapper {
-	color: #bfbfbf;
+	color: #0c0c0c;
 }
 
 .footer-wrapper a {

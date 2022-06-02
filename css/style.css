@@ -5303,7 +5303,7 @@ ul.greennature-twitter-widget li:before {
 	margin-top: 2px;
 	font-family: FontAwesome;
 	content: '\f099';
-	*zoom: expression(this.runtimeStyle['zoom']='1', this.innerHTML='&#xf099;');
+	/* *zoom: expression(this.runtimeStyle['zoom']='1', this.innerHTML='&#xf099;'); */
 }
 
 ul.greennature-twitter-widget li .greennature-twitter {
@@ -6146,4 +6146,14 @@ input[type="text"].greennature-payment-price-fill {
 
 .greennature-image img {
 	width: 100%;
+}
+
+.top-navigation-left{
+	display: flex;
+}
+
+@media only screen and (max-width: 767px){
+	.top-navigation-left{
+		display: none;
+	}
 }
