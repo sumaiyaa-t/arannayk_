@@ -127,7 +127,7 @@ h6 {
 
 @media only screen and (max-width: 767px) {
 	.greennature-header-wrapper.header-style-5-wrapper .greennature-header-inner {
-		background-color: #253526;
+		background-color: #fff;
 	}
 }
 
@@ -902,7 +902,8 @@ textarea:-ms-input-placeholder {
 }
 
 .footer-wrapper {
-	background-color: #e86d12;
+	/* background-color: #e86d12; */
+	background-color: #ec9409;
 }
 
 .footer-wrapper .greennature-widget-title,

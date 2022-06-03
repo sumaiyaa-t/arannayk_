@@ -1641,6 +1641,8 @@ input[type="submit"] {
 	margin-bottom: 18px;
 }
 
+
+
 /*--- about-us ---*/
 .greennature-normal .about-us-caption {
 	font-size: 15px;
@@ -6155,5 +6157,73 @@ input[type="text"].greennature-payment-price-fill {
 @media only screen and (max-width: 767px){
 	.top-navigation-left{
 		display: none;
+	}
+}
+
+.achievements-card:hover{
+	background-color: #6d593e;
+}
+
+.mission-card{
+	 background-color: #3f3221;
+}
+.mission-card:hover{
+	background-color: #6d593e;
+}
+
+.service-style:hover img{
+	margin-left: 0;
+}
+.more-services{
+	color: #fff;
+	background-color: brown;
+	padding: 1rem;
+	font-size: 1.2rem;
+	transition: all 0.5s;
+}
+.more-services span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.more-services span:after{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.more-services:hover{
+	color: #fff;
+	background-color: #da5027;
+	padding: 1rem;
+	font-size: 1.2rem;
+}
+.more-services:hover span{
+	padding-right: 25px;
+}
+.more-services:hover span:after{
+	opacity: 1;
+	right: 0;
+}
+.services-title-style:hover + .action-ads-divider{
+width: 260px;
+transition: 1s;
+}
+
+.get-involved-heading{
+	color: #fff;
+}
+
+@media only screen and (min-width:250px)and (max-width: 959px) {
+	.msp-preset-btn-159{
+		margin-left: 2rem; 
+		
+	}
+	.ms-layer{
+		margin-left: 4rem;
 	}
 }
