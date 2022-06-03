@@ -1012,6 +1012,8 @@ html .woocommerce .greennature-widget-title {
 	letter-spacing: 3px;
 }
 
+
+
 .greennature-page-title-wrapper .greennature-page-caption {
 	font-size: 20px;
 	margin: 12px 17px 0px;
@@ -6225,5 +6227,39 @@ transition: 1s;
 	}
 	.ms-layer{
 		margin-left: 4rem;
+	}
+}
+.download-button-style{
+	margin-right: 5px;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding: 15px 28px;
+	font-weight: 800;
+	border: 1px solid #5dc269;
+	color: #4f9e58;
+	
+}
+.download-button-style:hover{
+	background-color: #4f9e58;
+	color: #fff;
+}
+.books-image-style{
+height: 300px;
+width: 300px;
+}
+
+.section-heading-title{
+	font-size: 45px;
+	margin: 0px 15px;
+	display: block;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+@media only screen and (min-width:250px)and (max-width: 959px) {
+	.section-heading-title{
+		font-size: 30px;
 	}
 }

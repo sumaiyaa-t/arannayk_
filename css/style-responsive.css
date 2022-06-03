@@ -26,7 +26,7 @@ html body {
 
 	.greennature-navigation-wrapper .greennature-main-menu>li>a.sf-with-ul-pre,
 	.greennature-navigation-wrapper .greennature-main-menu>li>a.sf-with-ul .greennature-navigation-wrapper .greennature-main-menu>li>a {
-		padding-right: 25px;
+		padding-right: 20px;
 	}
 }
 
@@ -52,7 +52,7 @@ html body {
 
 	body .greennature-navigation {
 		display: inline-block;
-		line-height: 1.7;
+		line-height: 1.3;
 		text-align: left;
 	}
 
