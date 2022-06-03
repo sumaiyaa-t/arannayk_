@@ -423,6 +423,7 @@ html body {
 }
 
 
+
 /*--- mobile portrait style ---*/
 @media only screen and (max-width: 419px) {
 	body .container {
@@ -441,5 +442,40 @@ html body {
 	.dl-menuwrapper .dl-menu,
 	.dl-menuwrapper>.dl-submenu {
 		width: 270px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.top-navigation-left {
+		display: none;
+	}
+}
+
+
+@media only screen and (min-width:250px)and (max-width: 959px) {
+	.msp-preset-btn-159 {
+		margin-left: 2rem;
+
+	}
+
+	.ms-layer {
+		margin-left: 4rem;
+	}
+
+	.section-heading-title {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width:250px)and (max-width: 700px) {
+	.top-navigation-container {
+		margin-right: initial;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	img.greennature-full-boxed-background {
+		left: 50%;
+		margin-left: -512px;
 	}
 }

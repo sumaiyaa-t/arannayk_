@@ -643,12 +643,6 @@ img.greennature-full-boxed-background {
 	z-index: -1;
 }
 
-@media screen and (max-width: 1024px) {
-	img.greennature-full-boxed-background {
-		left: 50%;
-		margin-left: -512px;
-	}
-}
 
 .content-wrapper {
 	position: relative;
@@ -6156,12 +6150,6 @@ input[type="text"].greennature-payment-price-fill {
 	display: flex;
 }
 
-@media only screen and (max-width: 767px) {
-	.top-navigation-left {
-		display: none;
-	}
-}
-
 .achievements-card:hover {
 	background-color: #6d593e;
 }
@@ -6227,17 +6215,6 @@ input[type="text"].greennature-payment-price-fill {
 	color: #fff;
 }
 
-@media only screen and (min-width:250px)and (max-width: 959px) {
-	.msp-preset-btn-159 {
-		margin-left: 2rem;
-
-	}
-
-	.ms-layer {
-		margin-left: 4rem;
-	}
-}
-
 .download-button-style {
 	margin-right: 5px;
 	letter-spacing: 1px;
@@ -6267,17 +6244,4 @@ input[type="text"].greennature-payment-price-fill {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: #fff;
-}
-
-@media only screen and (min-width:250px)and (max-width: 959px) {
-	.section-heading-title {
-		font-size: 30px;
-	}
-
-}
-
-@media only screen and (min-width:250px)and (max-width: 700px) {
-	.top-navigation-container {
-		margin-right: initial;
-	}
 }
