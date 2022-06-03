@@ -6152,44 +6152,48 @@ input[type="text"].greennature-payment-price-fill {
 	width: 100%;
 }
 
-.top-navigation-left{
+.top-navigation-left {
 	display: flex;
 }
 
-@media only screen and (max-width: 767px){
-	.top-navigation-left{
+@media only screen and (max-width: 767px) {
+	.top-navigation-left {
 		display: none;
 	}
 }
 
-.achievements-card:hover{
+.achievements-card:hover {
 	background-color: #6d593e;
 }
 
-.mission-card{
-	 background-color: #3f3221;
+.mission-card {
+	background-color: #3f3221;
 }
-.mission-card:hover{
+
+.mission-card:hover {
 	background-color: #6d593e;
 }
 
-.service-style:hover img{
+.service-style:hover img {
 	margin-left: 0;
 }
-.more-services{
+
+.more-services {
 	color: #fff;
 	background-color: brown;
 	padding: 1rem;
 	font-size: 1.2rem;
 	transition: all 0.5s;
 }
-.more-services span{
+
+.more-services span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
 }
-.more-services span:after{
+
+.more-services span:after {
 	content: '\00bb';
 	position: absolute;
 	opacity: 0;
@@ -6198,38 +6202,43 @@ input[type="text"].greennature-payment-price-fill {
 	transition: 0.5s;
 }
 
-.more-services:hover{
+.more-services:hover {
 	color: #fff;
 	background-color: #da5027;
 	padding: 1rem;
 	font-size: 1.2rem;
 }
-.more-services:hover span{
+
+.more-services:hover span {
 	padding-right: 25px;
 }
-.more-services:hover span:after{
+
+.more-services:hover span:after {
 	opacity: 1;
 	right: 0;
 }
-.services-title-style:hover + .action-ads-divider{
-width: 260px;
-transition: 1s;
+
+.services-title-style:hover+.action-ads-divider {
+	width: 260px;
+	transition: 1s;
 }
 
-.get-involved-heading{
+.get-involved-heading {
 	color: #fff;
 }
 
 @media only screen and (min-width:250px)and (max-width: 959px) {
-	.msp-preset-btn-159{
-		margin-left: 2rem; 
-		
+	.msp-preset-btn-159 {
+		margin-left: 2rem;
+
 	}
-	.ms-layer{
+
+	.ms-layer {
 		margin-left: 4rem;
 	}
 }
-.download-button-style{
+
+.download-button-style {
 	margin-right: 5px;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -6237,18 +6246,20 @@ transition: 1s;
 	font-weight: 800;
 	border: 1px solid #5dc269;
 	color: #4f9e58;
-	
+
 }
-.download-button-style:hover{
+
+.download-button-style:hover {
 	background-color: #4f9e58;
 	color: #fff;
 }
-.books-image-style{
-height: 300px;
-width: 300px;
+
+.books-image-style {
+	height: 300px;
+	width: 300px;
 }
 
-.section-heading-title{
+.section-heading-title {
 	font-size: 45px;
 	margin: 0px 15px;
 	display: block;
@@ -6259,13 +6270,14 @@ width: 300px;
 }
 
 @media only screen and (min-width:250px)and (max-width: 959px) {
-	.section-heading-title{
+	.section-heading-title {
 		font-size: 30px;
 	}
-	
+
 }
-@media only screen and (min-width:250px)and (max-width: 700px){
-	.top-navigation-container{
+
+@media only screen and (min-width:250px)and (max-width: 700px) {
+	.top-navigation-container {
 		margin-right: initial;
-			}
+	}
 }
