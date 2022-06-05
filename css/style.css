@@ -2649,6 +2649,16 @@ i.greennature-icon {
 }
 
 /*--- skill round ---*/
+.section-title{
+	text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #fff;
+	text-align: center; 
+	margin-bottom: 5rem; 
+	font-weight: 800;
+}
+
 .greennature-skill-item-wrapper {
 	text-align: center;
 	line-height: 1;

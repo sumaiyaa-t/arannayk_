@@ -28,6 +28,9 @@ html body {
 	.greennature-navigation-wrapper .greennature-main-menu>li>a.sf-with-ul .greennature-navigation-wrapper .greennature-main-menu>li>a {
 		padding-right: 20px;
 	}
+	.greennature-skill-item-wrapper .greennature-skill-item-title {
+		font-size: 26px;
+	}
 }
 
 @media only screen and (max-width: 1050px) {
@@ -422,10 +425,16 @@ html body {
 	}
 }
 
+@media only screen and (max-width: 600px){
+	.greennature-skill-item-wrapper .greennature-skill-item-title{
+		font-size:32px;
+	}
+}
 
 
 /*--- mobile portrait style ---*/
 @media only screen and (max-width: 419px) {
+	
 	body .container {
 		max-width: 300px;
 	}
